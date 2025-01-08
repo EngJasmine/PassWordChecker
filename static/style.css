@@ -1,0 +1,32 @@
+body {
+            background-image: url('./static/backimg.jpg'); /* Specify the path to your image */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            height: 100vh; /* Set height to full viewport height */
+            margin: 0; /* Remove default margin */
+        }
+
+.content {
+    color: white; /* Change text color for contrast */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add some padding */
+}
+.container {
+    margin-top: 50px;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #343a40;
+}
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
